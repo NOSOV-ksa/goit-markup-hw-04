@@ -30,7 +30,7 @@ ul {
     margin: 0px;
     padding: 0px;
 }
- h2 {
+ h1, h2, h3 {
      margin: 0px;
      padding: 0px;
  }
@@ -43,38 +43,28 @@ ul {
     /* background-color: none;  */
 }
 
-
-section {
-    padding: 0px;
+.section {
+    padding: 94px 0px;
     margin: 0px;
 }
 
-
-/* Хедр */
-
-/* .pege-header {
-    background-color: #ffffff;
-} */
+/* --------------Хедр--------------- */
 
 .head-nav {
     display: flex;
     align-items: center;
-    
 }
 
 .border {
     border-bottom: 1px solid #ECECEC;
 }
 
-
-
-/* Хедр-Логотип */
+/* -----------------Хедр-Логотип-----------------*/
 .logo {
     margin: 0px;
     padding: 0px;
     margin-right: 93px;
-    /* margin-top: 24px; */
-
+    
     font-family: Raleway, sans-serif;
     font-style: normal;
     font-weight: 900;
@@ -88,39 +78,23 @@ section {
     color: var(--secondr-text-color);
 }
 
+/* -----------------Навигация----------------- */
+
+.head {
+    display: flex;
+    padding: 24px 0px;
+}
+
 .nav {
     display: flex;
     align-items: center;
 
     margin: 0px;
     padding: 0px;
-    /* margin-top: 32px; */
-    
-    
-    
-}
-.head {
-    display: flex;
-    padding: 24px 0px;
-    /* padding: 24px 0px; */
 }
 
-/* .nav li:not(:last-child) {
-    margin-right: 40px;
-    outline: 1px dotted red;
-} */
-
-.nav .nav-link {
-    display: block;
-}
-
-.nav .item + .item {
-    margin-left: 40px;
-    
-}
-
-/* Хедр-навигация */
 .nav-link {
+    display: block;
     color: var(--primary-text-color);
     font-size: 14px;
     line-height: 1.14;
@@ -128,65 +102,35 @@ section {
     letter-spacing: 0.02em;
 }
 
+.nav-link:hover,
+.nav-link:focus  {
+    color: var(--secondr-text-color);
+
+}
+
+
+.nav .nav-item + .nav-item {
+    margin-left: 40px;
+}
+
 
 /* Хедр-контакты */
 .contact {
     display: flex;
-
+    align-items: center;
     margin: 0px;
     padding: 0px;
-    /* margin-top: 32px;
-    margin-bottom: 32px; */
     margin-left: auto;
 }
 
-.item {
-    display: flex;
-    padding: 0px;
-    margin: 0px;
-    align-items: center;
-}
-
-.contact-icon-mail {
-    margin-right: 10px;
-}
-
-.contact-icon-mail,
-.contact-icon-smartphone     {
-    fill: var(--title-text-color);
-} 
-/* .item .mail:hover
-.item .mail:focus,
-.item .tel:hover,
-.item .tel:focus,
-.nav-link:hover,
-.nav-link:focus,
-.contact-icon-mail:hover,
-.contact-icon-mail:focus,
-.contact-icon-smartphone:hover,
-.contact-icon-smartphone:focus { 
-    color: var(--secondr-text-color);
-    fill: var(--secondr-text-color);
-}  */
-
-.item .mail:hover,
-.contact-icon-mail:hover {
-    color: #2196F3;
-    fill: #2196F3;
-}
-
-.contact-icon-smartphone {
-    margin-right: 10px;
-}
-
-.contact .item + .item {
+.contact-item + .contact-item {
     margin-left: 50px;
 }
 
-.contact .mail,
-.contact .tel {
-    display: inline-block;
-
+.contact-link {
+    display: flex;
+    align-items: center;
+    
     color: var(--title-text-color);
     font-size: 14px;
     line-height: 1.14;
@@ -194,13 +138,27 @@ section {
     letter-spacing: 0.02em;
 }
 
+.contact-icon {
+    margin-right: 10px;
+    fill: var(--title-text-color);
+} 
+
+.contact-link:hover,
+.contact-link:focus {
+    color: var(--secondr-text-color);
+}
+
+.contact-link:hover .contact-icon,
+.contact-link:focus .contact-icon {
+    fill: var(--secondr-text-color);
+}
+
 /* Курсор */
 .pointer {
     cursor: pointer;
 }
 
-
-/* Home page */
+/* -----------------Home page------------------- */
 
 
 .hero {
@@ -220,7 +178,7 @@ section {
         rgba(47, 48, 58, 0.4),
         rgba(47, 48, 58, 0.4)
      ), url("/images/hero.jpg");
-     background-repeat: cover;
+     /* background-repeat: cover; */
      background-repeat: no-repeat;
      background-position: center;
 }
@@ -246,8 +204,7 @@ section {
 }
 
 .skil {    
-    margin: 0px;
-    padding: 94px 0px;
+
 }
 
 .about {
@@ -293,8 +250,7 @@ section {
 
 .team {
     background-color: var(--select-button-color);
-    padding-top: 94px;
-    padding-bottom: 94px;
+   
 }
 
 .team-title {
@@ -324,8 +280,7 @@ img {
 
 .team-list {
     display: flex;
-    margin: 0px;
-    padding: 0px;
+    margin-top: 50px;
 }
 
 .team-list .team-item + .team-item {
@@ -369,9 +324,7 @@ img {
     display: flex;
     justify-content: space-around;
 
-    margin: 0px;
     padding: 16px 32px 30px;
-    
 }
 
 .icon-card:nth-last-child(-n+1) {
@@ -404,7 +357,8 @@ img {
 
 
 
-.icon-stile:hover .icon {
+.icon-stile:hover,
+.icon:hover {
     background-color: var(--secondr-text-color);
     fill: #fff;
 }
@@ -414,8 +368,7 @@ img {
 }
 
 .clients {
-    padding-top: 94px;
-    padding-bottom: 94px;
+   
 }
 
 .clients-icon {
@@ -601,6 +554,7 @@ color: rgba(255, 255,255, 0.6);
     letter-spacing: 0.06em;
     text-align: center;
 }
+
 
 .solution {
     margin: 0px;

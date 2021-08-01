@@ -13,30 +13,32 @@
     <body class="list">
 
     <header>
-        <section class="section">
+        <section class="">
            <div class="container">
             <nav class="head-nav">
                 <div class="head">
-                    <a href="/" class="logo"><span class="web">Web</span>Studio</a>
+                    <a href="./index.html" class="logo"><span class="web">Web</span>Studio</a>
                     <ul class="nav">
-                        <li class="item"><a href="/" class="nav-link studio pointer">Студия</a></li>
-                        <li class="item"><a href="./portfolio.html" class="nav-link portfolio pointer">Портфолио</a></li>
-                        <li class="item"><a href="" class="nav-link communications pointer">Контакты</a></li>
+                        <li class="nav-item"><a href="./index.html" class="nav-link">Студия</a></li>
+                        <li class="nav-item"><a href="./portfolio.html" class="nav-link pointer">Портфолио</a></li>
+                        <li class="nav-item"><a href="" class="nav-link pointer">Контакты</a></li>
                     </ul>
                 </div>
                     <ul class="contact">
-                        <li class="item">
-                            <a class="mail pointer" href="mailto:info@devstudio.com" title="our email">
-                                <svg class="contact-icon-mail" width="16" height="12">
+                        <li class="contact-item">
+                            <a class="contact-link" href="mailto:info@devstudio.com" title="our email">
+                                <svg class="contact-icon" width="16" height="12">
                                     <use href="./images/sprite.svg#envelope"></use>
                                 </svg>info@devstudio.com
                             </a>
                         </li>
-                        <li class="item">
-                            <svg class="contact-icon-smartphone" width="10" height="16">
-                                <use href="./images/sprite.svg#smartphone"></use>
-                            </svg>
-                            <a class="tel pointer" href="tel:+380961111111" title="our phone" >+38 096 111 11 11</a></li>
+                        <li class="contact-item">
+                            <a class="contact-link" href="tel:+380961111111" title="our phone" >
+                                <svg class="contact-icon" width="10" height="16">
+                                    <use href="./images/sprite.svg#smartphone"></use>
+                                </svg>+38 096 111 11 11
+                            </a>
+                        </li>
                     </ul>
             </nav>
         </div> 
@@ -49,14 +51,14 @@
 
             <div class="overley hero">
                 <h1 class="solution">еффективные решения <br /> для вашего бизнеса</h1>
-                    <div class="pin">
+                    <a class="pin" href="#">
                         <button type="button" class="button pointer">Заказать услугу</button>
-                    </div>
+                    </a>
             </div>
 
         </section>  
 
-        <section class="skil">
+        <section class="section">
             
             <div class="container">
 
@@ -118,10 +120,10 @@
                 
         </section>
 
-        <section class="team">
+        <section class="section team">
             <div class="container">
                 <h2 class="team-title">Наша команда</h2>
-                <div class="photo">
+                
                     <ul class="team-list">
                         <li class="team-item">
                             <img class="team-image" src="./images/Igor.jpg" width="270" alt="Igor Demyanenko">
@@ -272,11 +274,11 @@
                             </div>
                         </li>  
                     </ul>
-                </div>
+                
             </div>
         </section>
 
-        <section class="clients">
+        <section class="section clients">
             <div class="container">
                 <h2 class="team-title">Постоянные клиенты</h2>
                 <div class="clients-icon">
