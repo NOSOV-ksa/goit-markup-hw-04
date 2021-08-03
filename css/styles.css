@@ -373,17 +373,43 @@ img {
 
 
 .clients {
+}
+
+.icon-clients {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+
+    margin-top: 50px;
+}
+
+.icon-company {
+    border: 1px solid var(--color-social-network);
+    border-radius: 4px;
+}
+
+.icom
+
+.icon-company:not(:last-child) {
+    margin-right: 30px;
+} 
    
+
+.icon-company:hover .icon-logo {
+    fill: var(--secondr-text-color);
+}
+.icon-company-link:hover {
+    color: red;
 }
 
-.clients-icon {
-    display: block;
+.icon-logo {
+    padding: 16px 32px;
+    width: 100%;
+    height: 100%;
+    fill: var(--color-social-network);
 
-    margin: 0px;
-    padding-top: 50px;
+
 }
-
-
 
 
 /* Футер логотип */
@@ -404,7 +430,6 @@ footer .second {
 }
 
 .footer-logo {
-   
     margin-bottom: 20px;
 }
 
