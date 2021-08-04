@@ -189,7 +189,7 @@ ul {
     margin: 0px;
     padding: 0px;
     border-radius: 4px;
-     
+
 }
 
 .card-icon {
@@ -241,7 +241,6 @@ ul {
 }
 
 .article {
-
     width: 270px;
 }
 
@@ -394,9 +393,9 @@ img {
 } 
    
 
-.icon-company:hover .icon-logo {
+/* .icon-company:hover .icon-logo {
     fill: var(--secondr-text-color);
-}
+} */
 .icon-company:hover {
    
 }
