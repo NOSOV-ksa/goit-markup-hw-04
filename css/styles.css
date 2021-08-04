@@ -118,9 +118,11 @@ ul {
 .contact {
     display: flex;
     align-items: center;
-    margin: 0px;
-    padding: 0px;
     margin-left: auto;
+}
+
+.contact-item {
+    
 }
 
 .contact-item + .contact-item {
@@ -254,8 +256,7 @@ ul {
 }
 
 .team-title {
-    margin: 0px;
-    padding: 0px;
+    
     
     text-align: center;
     font-weight: 700;
@@ -447,9 +448,7 @@ footer .second {
 }
 
 .area {
-    margin: 0px;
-    padding: 0px;
-    margin-bottom: 9px;
+    /* margin-bottom: 9px; */
 
     font-family: Roboto, sans-serif;
     color: var(--color-white);
