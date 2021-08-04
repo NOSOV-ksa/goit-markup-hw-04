@@ -192,7 +192,7 @@ ul {
      
 }
 
-.button-icon {
+.card-icon {
     margin: 0px;
     margin-bottom: 30px;
     padding: 25px 100px;
@@ -362,16 +362,6 @@ img {
 .icon-link:focus .social-icon {
     fill: #ffffff;
 }
-
-/* 
-.social-item:hover .social-icon {
-    fill: var(--color-white);
-}
-
-.social-item:hover {
-   background-color: #2196F3;
-} */
-
 
 .clients {
 }
@@ -663,7 +653,7 @@ color: rgba(255, 255,255, 0.6);
 }
 
 .pin {
-    padding: 10px 32px;
+    /* padding: 10px 32px; */
 
     border-radius: 4px;
     padding: 6px 22px;
@@ -681,6 +671,7 @@ color: rgba(255, 255,255, 0.6);
     line-height: 1.87;
     letter-spacing: 0.06em;
     text-align: center;
+    padding: 10px 32px;
 }
 
 
