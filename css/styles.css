@@ -384,12 +384,20 @@ img {
 }
 
 .icon-company {
+
+}
+
+.icon-company-link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     border: 1px solid var(--color-social-network);
     border-radius: 4px;
 }
 
-.icom
-
+.icon-company-link:hover{
+    border: 1px solid var(--secondr-text-color);
+}
 .icon-company:not(:last-child) {
     margin-right: 30px;
 } 
@@ -398,22 +406,27 @@ img {
 .icon-company:hover .icon-logo {
     fill: var(--secondr-text-color);
 }
-.icon-company-link:hover {
-    color: red;
+.icon-company:hover {
+   
 }
 
 .icon-logo {
     padding: 16px 32px;
+    width: 170px;
+    height:  92px;
     width: 100%;
     height: 100%;
     fill: var(--color-social-network);
+    border-color: 1px  var(--color-social-network);
+}
 
-
+.icon-logo:hover {
+    
 }
 
 
 /* Футер логотип */
-footer {
+.footer {
     background-color: var(--section-color);
     padding-top: 60px;
     padding-bottom: 60px;
@@ -457,9 +470,9 @@ letter-spacing: 0.03em;
 color: rgba(255, 255,255, 0.6);
 }
 
-.footer-contact {
+/* .footer-contact {
     padding: 0px;
-}
+} */
 
 .footer-contact .mail {
     margin: 0px;
