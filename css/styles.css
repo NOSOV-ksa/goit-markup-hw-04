@@ -121,14 +121,6 @@ ul {
     margin-left: auto;
 }
 
-.contact-item {
-    
-}
-
-.contact-item + .contact-item {
-    margin-left: 50px;
-}
-
 .contact-link {
     display: flex;
     align-items: center;
@@ -206,9 +198,6 @@ ul {
 
 }
 
-.skil {    
-
-}
 
 .about {
     display: flex;
@@ -363,19 +352,12 @@ img {
     fill: #ffffff;
 }
 
-.clients {
-}
-
 .icon-clients {
     display:flex;
     justify-content: center;
     align-items: center;
 
     margin-top: 50px;
-}
-
-.icon-company {
-
 }
 
 .icon-company-link {
@@ -403,9 +385,6 @@ img {
 /* .icon-company:hover .icon-logo {
     fill: var(--secondr-text-color);
 } */
-.icon-company:hover {
-   
-}
 
 .icon-logo {
     padding: 16px 32px;
@@ -415,10 +394,6 @@ img {
     height: 100%;
     fill: var(--color-social-network);
     border-color: 1px  var(--color-social-network);
-}
-
-.icon-logo:hover {
-    
 }
 
 
@@ -523,11 +498,6 @@ color: rgba(255, 255,255, 0.6);
   
 }
 
-
-.social-item {
-     
-}
-
 .footer-icon {
     fill: #ffffff;
 }
@@ -535,12 +505,6 @@ color: rgba(255, 255,255, 0.6);
 .social-icon-link {
     background-color: rgba(255, 255, 255, 0.1);
 }
-
-
-.social-item {
-    
-}
-
 
 .social-icon-link:hover .footer-icon,
 .social-icon-link:focus .footer-icon {
@@ -556,9 +520,6 @@ color: rgba(255, 255,255, 0.6);
 /*************** ПОРТФОЛИО ****************/
 .project {
     padding: 94px 0px;
-}
-
-.btn-group {
 }
 
 .btn-select .select:hover {
